@@ -9,6 +9,7 @@
 ### Setup
 
 > Update and install Python v3.7
+
 ```shell
 $ pip install --upgrade pip
 ```
@@ -16,7 +17,6 @@ $ pip install --upgrade pip
 > Update and install Tensorflow v2.2 (note: latest Python version required)
 
 ```shell
-$ pip install --upgrade pip
 $ pip install tensorflow
 ```
 
