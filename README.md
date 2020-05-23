@@ -1,16 +1,13 @@
-# Sentiment Analysis
+# Sentiment Analysis 
 
-> Neural Networks in Keras 
+- Machine Learning algorithm used to predict a positive or negative movie review.  Implemented a Neural Network in Keras to solve this binary classification problem. 
 
-> Machine Learning algorithm used to predict a positive or negative movie review.
-
-![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)
+![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square) ![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)
 
 ## Development
 
 ### Setup
 
-- Python v3.7
 > Update and install Python v3.7
 ```shell
 $ pip install --upgrade pip
