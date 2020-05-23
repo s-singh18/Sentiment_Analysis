@@ -1,18 +1,23 @@
 # Sentiment Analysis
 
-> Keras 
+> Neural Networks in Keras 
 
-> Neural Network implementation used to classify movie reviews as positive or negative.
+> Machine Learning algorithm used to predict a positive or negative movie review.
 
-> Python, Tensorflow, Keras, Neural Networks, Machine Learning, Deep Learning
+![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger) [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org) [![Badges](http://img.shields.io/:badges-9/9-ff6799.svg?style=flat-square)](https://github.com/badges/badgerbadgerbadger)
+
 
 ## Development
 
 ### Setup
 
-- Python 3.7
+- Python v3.7
+> Update and install Python v3.7
+```shell
+$ pip install --upgrade pip
+```
 
-> Update and install Tensorflow v2.2
+> Update and install Tensorflow v2.2 (note: latest Python version required)
 
 ```shell
 $ pip install --upgrade pip
