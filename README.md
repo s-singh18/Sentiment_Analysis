@@ -6,13 +6,40 @@
 
 > Python, Tensorflow, Keras, Neural Networks, Machine Learning, Deep Learning
 
+## Development
 
 ### Setup
 
-- Coded in Python 3.7
-- Have Tensorflow v2.2
+- Python 3.7
+
+> Update and install Tensorflow v2.2
+
+```shell
+$ pip install --upgrade pip
+$ pip install tensorflow
+```
+
+> Update and install NLTK v3.5
+
+```shell
+$ pip install --user -U nltk
+```
+
+> Update and install scikit-learn v0.23
+
+```shell
+$ pip install -U scikit-learn
+```
+
+### Run Code
+
+> Run code from terminal or cmd prompt
+
+```shell
+$ python main_keras.py
+```
 
 
 ## License
 
-- Copyright 2020 © Sohil Singh
+- This project is licensed under the terms of the MIT license.

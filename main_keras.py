@@ -40,7 +40,6 @@ Preprocessing performed by nltk word tokenize, loading words into the dict
 """
 
 import nltk
-from numpy import array
 from nltk.corpus import stopwords
 from collections import Counter
 import numpy as np
@@ -148,13 +147,14 @@ if __name__ == '__main__':
     print('Test Loss: %f' % (acc*100))
     print('Test Accuracy: %f' % (acc*100))
     
+    reviews = ['Best amazing fantastic movie, loved it', 'Terrible, waste of time.']
     # Make Prediction
-    text = 'Best amazing fantastic movie, loved it'
-    print(predict_sentiment(text, vocab, tokenizer, model))
-    #test negative
-    text = 'Terrible, waste of time.'
-    print(predict_sentiment(text, vocab, tokenizer, model))
-    
+    for text in reviews:
+        print("Review: " +  text)
+        if predict_sentiment(text, vocab, tokenizer, model) == 1:      
+            print("Positive Review")
+        else:
+            print("Negative Review")
 
             
         
