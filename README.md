@@ -4,7 +4,7 @@
 
 > Machine Learning algorithm used to predict a positive or negative movie review.
 
-![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)][![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)]
+![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)
 
 ## Development
 
