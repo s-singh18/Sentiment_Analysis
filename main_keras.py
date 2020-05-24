@@ -147,7 +147,7 @@ if __name__ == '__main__':
     print('Test Loss: %f' % (acc*100))
     print('Test Accuracy: %f' % (acc*100))
     
-    reviews = ['Best amazing fantastic movie, loved it', 'Terrible, waste of time.']
+    reviews = ['Best amazing fantastic movie, loved it.', 'Terrible, waste of time.']
     # Make Prediction
     for text in reviews:
         print("Review: " +  text)
